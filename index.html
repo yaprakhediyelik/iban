@@ -160,7 +160,10 @@
     border-radius: 16px;
     background: var(--card-bg);
     margin-top: 22px;
+    text-decoration: none;
+    transition: transform 0.2s ease;
   }
+  .location-card:active { transform: scale(0.98); }
   .location-card svg {
     width: 22px;
     height: 22px;
@@ -228,13 +231,13 @@
       </a>
     </div>
 
-    <div class="location-card">
+    <a class="location-card" href="https://www.google.com/maps/search/?api=1&query=Akif+%C4%B0nan%2C+5006.+Sk.+No%3A26%2C+46050+Onikişubat%2FKahramanmaraş" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s7-7.2 7-12a7 7 0 1 0-14 0c0 4.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>
       <div>
         <div class="location-title">Mağaza Konumu</div>
         <div class="location-text">Akif İnan, 5006. Sk. No:26, 46050 Onikişubat/Kahramanmaraş</div>
       </div>
-    </div>
+    </a>
 
     <footer>Yaprak Tasarım &amp; Hediye</footer>
   </div>
